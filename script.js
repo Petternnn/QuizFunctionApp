@@ -98,18 +98,12 @@ const scoreText = document.querySelector('.score');
 const reviewSection = document.querySelector('.review');
 const reviewList = document.querySelector('.review-list');
 const devider = document.querySelector('.devider');
-const soundbutton = document.querySelectorAll ()
-const clickSound = new Audio("click.mp3");
 
 // Add event listeners to buttons to handle user interactions
 startButton.addEventListener('click', startQuiz);
 nextButton.addEventListener('click', nextQuestion);
 submitButton.addEventListener('click', submitQuiz);
 restartButton.addEventListener('click', restartQuiz);
-
-button.addEventListener("click", () => {
-    clickSound.play(); // Play the sound when the button is clicked
-});
 
 // Function to start the quiz
 function startQuiz() {
