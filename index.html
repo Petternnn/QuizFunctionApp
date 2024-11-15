@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz App</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main container for the quiz -->
+    <div class="quiz-container">
+        <h1>The Quiz</h1>
+
+        <!-- Container for the quiz content -->
+        <div class="quiz-content">
+        <!-- Display the current progress -->   
+        <div class="progress_Container">
+            <div class="progress_BG">
+                <div class="progress hide"></div>
+            </div>
+
+    <!-- Display the user's score -->
+    <div class="score hide"></div>
+        </div>
+            <!-- Div where the quiz questions will appear -->
+            <div class="quiz"></div>
+            <!-- Button to start the quiz -->
+            <button class="start-btn">Start Quiz</button>
+
+            <!-- Button to go to the next question -->
+            <button class="next-btn hide">Next Question</button>
+            <!-- Button to submit the quiz -->
+            <button class="submit-btn hide">Submit Quiz</button>
+            <!-- Button to restart the quiz -->
+            <button class="restart-btn hide">Restart Quiz</button>
+            
+            <hr class="divider">
+            <!-- Section to review answers after completing the quiz -->
+            <div class="review hide">
+                <h2>Review Your Answers</h2>
+                <div class="review-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
